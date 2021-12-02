@@ -7,3 +7,8 @@ let room1 = "会議室A";
 console.log(room1);
 let currentRoom = room1;
 console.log(currentRoom);
+
+let currentTemp = 19.5;
+// const message = "現在の温度は" + currentTemp + "°Cです"
+const message = `現在の温度は${currentTemp}です。`
+console.log(message);
