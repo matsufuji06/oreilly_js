@@ -10,5 +10,6 @@ console.log(currentRoom);
 
 let currentTemp = 19.5;
 // const message = "現在の温度は" + currentTemp + "°Cです"
-const message = `現在の温度は${currentTemp}です。`
+const message = `現在の温度は${currentTemp}です。\n` +
+"もう時期暖かくなるはずですから少々お待ちください。"
 console.log(message);
