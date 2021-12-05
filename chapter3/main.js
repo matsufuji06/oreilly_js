@@ -46,3 +46,14 @@ console.log(now);
 console.log(now.getFullYear());
 console.log(now.getDay());
 // ------------------------------
+const numStr = "33.3";
+const num = Number(numStr);
+console.log(num);
+// ------------------------------
+const n = 27.5;
+const s = n.toString();
+console.log(s);
+// ------------------------------
+const d = new Date();
+console.log(d.toString());
+
