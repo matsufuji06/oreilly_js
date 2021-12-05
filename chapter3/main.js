@@ -40,3 +40,9 @@ sam1.greeting = function(){
   return "hello!";
 };
 console.log(sam1.greeting());
+// ------------------------------
+const now = new Date();
+console.log(now);
+console.log(now.getFullYear());
+console.log(now.getDay());
+// ------------------------------
