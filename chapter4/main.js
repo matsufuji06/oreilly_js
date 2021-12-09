@@ -11,3 +11,13 @@ function rand(m, n) {
 function randFace() {
   return ["crown", "anchor", "heart", "spade", "club", "diamond"] [rand(0,5)];
 }
+
+const bet = {crown: 0, anchor: 0, heart: 0, spade: 0, club: 0, diamond: 0};
+let totalBet = rand(1, funds);
+if(totalBet === 7) {
+  totalBet = funds;
+  bet.heart = totalBet;
+} else {
+  // 賭け金(totalBet)をランダムに分ける
+}
+funds = funds - totalBet;
